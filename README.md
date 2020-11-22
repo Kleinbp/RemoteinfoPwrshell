@@ -9,4 +9,4 @@ Example:
   
   The script outputs a CSV file for every computer that you input into the $Computernames varible. The CSVs containing the computer info will be saved to your C drive in the public documents.
   
-  Script is posed as is and probably won't receive any updates from me.
+  Script is posted as is and probably won't receive any updates from me.
