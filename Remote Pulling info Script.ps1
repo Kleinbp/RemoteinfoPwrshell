@@ -57,7 +57,7 @@ $output | Add-Member -MemberType NoteProperty -Name 'DNS Servers' -Value
 $IP.DNSSERVER.Serveraddress
 
 #Outputting the pulled info into a CSV
-$Output | ConverTo-CSV -NoTypeInformation | out-file $Outputfile -Append
+$Output | ConvertTo-CSV -NoTypeInformation | out-file $Outputfile -Append
 }
 
 ForEach ($CName in $Computernames) {Move-Item -Path \\$CName\C$\Users\Public\Documents\Output.csv -Destination C:\Users\Public\Documents\$CName' Output'.csv}
